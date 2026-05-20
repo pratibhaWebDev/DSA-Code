@@ -1,0 +1,20 @@
+arr=[1,2,3,4,5,6,7]
+k=11
+n=arr.length
+k=k%n
+console.log(k)
+temp=[]
+for(i=0;i<k;i++){
+  temp[i]=arr[i]
+}
+j=0
+for(i=k;i<n;i++){
+  arr[j]=arr[i]
+  j++
+}
+
+for(i=0;i<temp.length;i++){
+  arr[j]=temp[i]
+  j++
+}
+console.log(arr)
