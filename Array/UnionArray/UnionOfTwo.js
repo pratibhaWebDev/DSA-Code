@@ -8,8 +8,6 @@ for(i=0;i<arr1.length;i++){
       found=true
       break
     }
-   
-
   }
    if(!found){
       union.push(arr1[i])
